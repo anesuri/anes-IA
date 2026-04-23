@@ -1,0 +1,44 @@
+/* Estilos básicos para la página de chat con IA */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h1 {
+  color: #0066cc;
+}
+
+textarea {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: white;
+  background-color: #0066cc;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0052a3;
+}
+
+.response {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  max-width: 600px;
+  white-space: pre-wrap;
+}
