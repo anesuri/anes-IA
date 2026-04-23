@@ -6,7 +6,7 @@
   de entorno o almacén de secretos para protegerla.
 */
 
-const apiKey = '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';
+const apiKey = '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';
 
 document.getElementById('send-button').addEventListener('click', async () => {
   const input = document.getElementById('user-input').value.trim();
