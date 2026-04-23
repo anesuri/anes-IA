@@ -6,7 +6,7 @@
   de entorno o almacén de secretos para protegerla.
 */
 
-const apiKey = 'REEMPLAZA_CON_TU_CLAVE_OPENAI';
+const apiKey = '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';
 
 document.getElementById('send-button').addEventListener('click', async () => {
   const input = document.getElementById('user-input').value.trim();
